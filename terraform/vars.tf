@@ -1,10 +1,14 @@
+variable "QUEUES" {
+  default = ["standard", "fifo"]
+}
+
 variable "AWS_REGION" {
   default = "ap-northeast-2"
 }
 
 variable "SQS_NAME" {
   description = "This is sqs name to be created"
-  default = "my-sqs"
+  default = "my-sqs2"
 }
 
 variable "PROFILE" {
