@@ -1,5 +1,5 @@
 variable "QUEUES" {
-  default = ["standard", "fifo"]
+  default = ["standard"]
 }
 
 variable "AWS_REGION" {
